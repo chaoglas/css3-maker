@@ -1,0 +1,228 @@
+html,body,ul,li{
+	margin:0;
+	padding:0;
+}
+html{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+body{
+	background:url(../img/back1.jpg) no-repeat;
+	width: 100%;
+	height:100%;
+	overflow: auto;
+	position: relative;
+	background-size: 100% 100%;
+	color:#fff;
+	font-family: "微软雅黑","arial";
+}
+.content{
+	width:100%;
+	position: absolute;
+
+}
+ul{
+	margin-top: 20px;
+}
+li{
+	list-style: none;
+	height:36px;
+	width:80%;
+	margin:10px auto;
+}
+section{
+	width:1200px;
+	margin:10px auto;
+	overflow: hidden;
+}
+aside{
+	width:320px;
+	height:540px;
+	margin:20px 25px 0 25px;
+	background:rgba(0,0,0,0.5);
+	position: relative;
+	float: left;
+}
+article{
+	width:780px;
+	height:540px;
+	margin: 20px 25px 20px 25px;
+	background:rgba(0,0,0,0.5);
+	float: left;
+	transition:All 1s ease;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+}
+label{
+	float:left;
+	width:100px;
+	font-size: 14px;
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none; 
+}
+svg text{
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none; 
+}
+button{
+	width: 200px;
+	height:40px;
+	border: 0;
+	color:#fff;
+	padding-left: 25px;
+	letter-spacing: 20px;
+	border-radius:3px;
+	font-size: 18px;
+	background:#2f91d7;
+	vertical-align: middle;
+	font-family: "微软雅黑";
+	text-shadow: 3px 3px 5px #000;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+.top{
+	margin-top: 20px;
+}
+.svg{
+	margin:-10px 0 0 22px;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+.svg-btn{
+	margin-top: 360px;
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	-o-user-select: none;
+	user-select: none; 
+}
+button:hover{
+	background:#1a8bc8;
+	cursor: pointer;
+}
+
+.style-type{
+	width:80%;
+	margin: 20px auto;
+}
+.slide-widget{
+	width: 106px;
+	height:6px;
+	float:left;
+	position: relative;
+	margin-top: 6px;
+	background:rgba(255,255,255,0.3);
+	border-radius: 2px;
+}
+.slide-widget-block{
+	position:absolute;
+	left:0;
+	top:-4px;
+	width:6px;
+	height:14px;
+	background:#fff;
+	border: 1px solid #888;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.silde-widget-data{
+	position: absolute;
+	display: none;
+	background:rgba(0,0,0,1);
+	left:0;
+	top:-30px;
+	padding:1px 5px;
+	height:14px;
+	width:30px;
+	text-align: center;
+	font-size: 12px;
+}
+.slide-widget-real{
+	width:30px;
+	font-size: 12px;
+	height:20px;
+	padding-left: 20px;
+	float: left;
+}
+.triangle{
+	width:0;
+	height:0;
+	margin-left: -3px;
+	margin-top: -1px;
+	border-color:rgba(0,0,0,1) rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
+	border-style:solid;
+	border-width:10px 18px 0 18px;
+}
+.box-area{
+	width: 100%;
+	height:100%;
+	position: relative;
+}
+.box{
+	width:200px;
+	height:100px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	color:#000;
+	margin-left: -100px;
+	margin-top: -50px;
+	text-align: center;
+	background:rgba(255,255,255,1);
+	transition:All 1s ease;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+	transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+
+.box-span{
+	line-height: 100px;
+	display: inline-block;
+	font-size: 16px;
+}
+.section{
+	background:rgba(0,0,0,0.5);
+	width:1150px;
+	position: relative;
+}
+.bottom-view{
+	width: 100%;
+	color:#fff;
+	font-size: 24px;
+	text-shadow: 6px 6px 5px #000;
+	line-height: 60px;
+	text-align: center;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.btn-reset{
+	width:80px;
+	margin:0;
+	z-index: 1;
+	top:15px;
+	letter-spacing: 5px;
+	padding-left:10px;
+	height:30px;
+	position: absolute;
+	right:10px;
+	text-shadow: none;
+}
+.bottom-info{
+	position: absolute;
+	top:40px;
+	right:10px;
+	font-size: 12px;
+}
